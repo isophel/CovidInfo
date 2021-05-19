@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Login Register</string>
-    <string name="text_accounts">All Accounts</string>
+    <string name="app_name">Covid Info</string>
+    <string name="text_accounts">Recent Updates</string>
     <string name="hint_name">Name</string>
     <string name="hint_email">Email</string>
     <string name="hint_password">Password</string>
@@ -16,5 +16,5 @@
     <string name="error_password_match">Password Does Not Matches</string>
     <string name="error_valid_email_password">Wrong Email or Password</string>
     <string name="text_hello">Hello,</string>
-    <string name="text_title">Android Tutorials Hub</string>
+    <string name="text_title">Welcome to Covid Info,Stay Safe Always</string>
 </resources>
