@@ -18,7 +18,7 @@ import java.util.List;
 
 public class UsersRecyclerAdapter extends RecyclerView.Adapter<UsersRecyclerAdapter.UserViewHolder> {
 
-    private List<User> listUsers;
+    private final List<User> listUsers;
 
     public UsersRecyclerAdapter(List<User> listUsers) {
         this.listUsers = listUsers;
@@ -58,9 +58,9 @@ public class UsersRecyclerAdapter extends RecyclerView.Adapter<UsersRecyclerAdap
 
         public UserViewHolder(View view) {
             super(view);
-            textViewName = (AppCompatTextView) view.findViewById(R.id.textViewName);
-            textViewEmail = (AppCompatTextView) view.findViewById(R.id.textViewEmail);
-            textViewPassword = (AppCompatTextView) view.findViewById(R.id.textViewPassword);
+            textViewName = view.findViewById(R.id.textViewName);
+            textViewEmail = view.findViewById(R.id.textViewEmail);
+            //textViewPassword = view.findViewById(R.id.textViewPassword);
         }
     }
 

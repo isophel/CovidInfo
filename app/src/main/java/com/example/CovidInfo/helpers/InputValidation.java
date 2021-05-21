@@ -12,7 +12,7 @@ import android.view.inputmethod.InputMethodManager;
  * Created by lalit on 9/13/2016.
  */
 public class InputValidation {
-    private Context context;
+    private final Context context;
 
     /**
      * constructor

@@ -23,7 +23,7 @@ import java.util.List;
 
 public class UsersListActivity extends AppCompatActivity {
 
-    private AppCompatActivity activity = UsersListActivity.this;
+    private final AppCompatActivity activity = UsersListActivity.this;
     private AppCompatTextView textViewName;
     private RecyclerView recyclerViewUsers;
     private List<User> listUsers;
@@ -44,8 +44,8 @@ public class UsersListActivity extends AppCompatActivity {
      * This method is to initialize views
      */
     private void initViews() {
-        textViewName = (AppCompatTextView) findViewById(R.id.textViewName);
-        recyclerViewUsers = (RecyclerView) findViewById(R.id.recyclerViewUsers);
+        textViewName = findViewById(R.id.textViewName);
+        recyclerViewUsers = findViewById(R.id.recyclerViewUsers);
     }
 
     /**
