@@ -1,7 +1,7 @@
 package com.example.CovidInfo.adapters;
 
-import android.support.v7.widget.AppCompatTextView;
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,9 +12,7 @@ import com.example.CovidInfo.model.User;
 
 import java.util.List;
 
-/**
- * Created by lalit on 10/10/2016.
- */
+
 
 public class UsersRecyclerAdapter extends RecyclerView.Adapter<UsersRecyclerAdapter.UserViewHolder> {
 
