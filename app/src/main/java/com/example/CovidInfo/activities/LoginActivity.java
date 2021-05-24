@@ -84,11 +84,14 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
      * This implemented method is to listen the click on view
      *
      * @param v
+     *
      */
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.appCompatButtonLogin:
+
+
                 verifyFromSQLite();
                 break;
             case R.id.textViewLinkRegister:
@@ -136,4 +139,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         textInputEditTextEmail.setText(null);
         textInputEditTextPassword.setText(null);
     }
+
+
 }

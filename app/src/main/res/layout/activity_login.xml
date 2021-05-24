@@ -70,5 +70,14 @@
             android:gravity="center"
             android:text="@string/text_not_member"
             android:textSize="16dp" />
+        <TextView
+            android:id="@+id/network"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Network status."
+            android:layout_gravity="center"
+            android:textSize="17dp"/>
     </androidx.appcompat.widget.LinearLayoutCompat>
+
 </androidx.core.widget.NestedScrollView>
