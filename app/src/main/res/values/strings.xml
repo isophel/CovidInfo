@@ -30,4 +30,12 @@
     <string name="title_Registered">Users</string>
     <string name="title_vaccination">vaccination</string>
     <string name="title_Help">Help</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="who">WHO has worked with UNICEF, Gavi and partners to develop resources, such as guidance, trainings, tools and advocacy materials to help governments,
+        health workers and partners to launch, refine, and optimise uptake of their COVID-19 vaccination programmes.</string>
+    <string name="covax">COVAX aims to accelerate the development and manufacturing of COVID-19 vaccines, and guarantee fair and equitable access for every country. COVAX is co-led by the Coalition for Epidemic Preparedness Innovations (CEPI),
+        Gavi and WHO, with UNICEF as a key delivery partner and PAHO as the procurement agent in the Americas.</string>
+    <string name="learners">The draft landscape of COVID-19 vaccine candidates contains information on vaccine candidates collected through public information (e.g. clinical trial registries) and information that were directly provided by vaccine developers to WHO.  The landscape is generally updated twice a week,
+        based on the latest information, including those we receive from scientists and research</string>
 </resources>
