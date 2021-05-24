@@ -17,4 +17,17 @@
     <string name="error_valid_email_password">Wrong Email or Password</string>
     <string name="text_hello">Hello,</string>
     <string name="text_title">Welcome to Covid Info,Stay Safe Always</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_Home">Home</string>
+    <string name="title_Registered">Users</string>
+    <string name="title_vaccination">vaccination</string>
+    <string name="title_Help">Help</string>
 </resources>
