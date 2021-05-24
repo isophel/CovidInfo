@@ -22,8 +22,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView news = findViewById(R.id.news);
+        TextView txthello  = findViewById(R.id.txthello);
 
 
+        String emailFromIntent = getIntent().getStringExtra("EMAIL");
+        txthello.setText(emailFromIntent);
+        casesAnimator();
+        recoverAnimator();
+        deathAnimator();
 
 
          class GetExample {
@@ -44,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             public void main(String[] args) throws IOException {
                 GetExample example = new GetExample();
                 String response = example.run("https://www.health.go.ug/covid/");
-                System.out.println(response);
+                //System.out.println(response);
                 news.setText(response);
             }
         }
@@ -53,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     public void casesAnimator(){
         TextView cases = findViewById(R.id.txtcases);
         ValueAnimator animator = new ValueAnimator();
-        animator.setObjectValues(0, 100);
+        animator.setObjectValues(0, 43734);
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             public void onAnimationUpdate(ValueAnimator animation) {
                 cases.setText(String.valueOf(animation.getAnimatedValue()));
@@ -66,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
     public void recoverAnimator(){
         TextView recovered = findViewById(R.id.txtrecover);
         ValueAnimator animator = new ValueAnimator();
-        animator.setObjectValues(0, 100);
+        animator.setObjectValues(0, 15147);
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             public void onAnimationUpdate(ValueAnimator animation) {
                 recovered.setText(String.valueOf(animation.getAnimatedValue()));
@@ -79,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
     public void deathAnimator(){
         TextView death = findViewById(R.id.textdeath);
         ValueAnimator animator = new ValueAnimator();
-        animator.setObjectValues(0, 100);
+        animator.setObjectValues(0, 357);
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             public void onAnimationUpdate(ValueAnimator animation) {
                 death.setText(String.valueOf(animation.getAnimatedValue()));
